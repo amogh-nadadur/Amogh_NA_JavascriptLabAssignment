@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header>h1{
+    margin: 1vw;
+    text-align: center;
+}
+
+header>h6{
+    text-align: center;
+}
+
+#mainDiv{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 50px;
+    padding: 15px 5px 15px;
+    display: block;
+    background-color: rgb(255, 184, 184);
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(81, 81, 81);
+}
+
+#textInput{
+    display: inline;
+    border: 1px solid black;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    text-align: center;
+    padding: 5px;
+}
+
+#mainDiv>button{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    padding: 1%;
+    width: 5%;
+    box-shadow: 2px 2px #666;
+}
+
+#mainDiv>button:hover{
+    cursor: pointer;
+}
+
+#mainDiv>button:active {
+    box-shadow: 1px 1px #666;
+    transform: translateY(2px);
+  }
+
+#displayDiv{
+    background-color: rgb(218, 240, 255);
+    margin: auto;
+    width: 40%;
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 5px 7px rgb(81, 81, 81);
+}
+
+/* #displayDiv>p{
+    border: 1px solid black;
+} */
+#searchIcon{
+    background-image: url(icons\loupe.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 20px;
+}
+
+#labelOne{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 1vw;
+    color: blanchedalmond;
+    text-align: center;
+    width: 55%;
+    background-color: rgb(224, 164, 224);
+    border-radius: 20px;
+}
+
+#weatherDesc{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: blanchedalmond;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+    margin-right: 0;
+}
+#weatherDiv{
+    display: flex;
+}
+#weatherImg{
+    margin: auto;
+    margin-left: 0;
+    height: 7vh;
+}
+
+#weatherTemp{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: blanchedalmond;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+}
+
+
+#weatherHumid{
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 6px;
+    color: blanchedalmond;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(134, 134, 134);
+    border-radius: 20px;
+}
